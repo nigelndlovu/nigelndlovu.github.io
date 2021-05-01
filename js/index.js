@@ -1,5 +1,5 @@
-var date = new Date();
-var year = date.getFullYear();
+let date = new Date();
+let year = date.getFullYear();
 document.querySelector("#getyear").textContent = year;
 
 
