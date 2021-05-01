@@ -1,2 +1,2 @@
-document.querySelector("#year").textContent = document.getYear
+document.querySelector("#theyear").textContent = document.year
 document.querySelector("#lastmod").textContent = document.lastModified
