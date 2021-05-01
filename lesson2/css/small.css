@@ -1,0 +1,77 @@
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+header,
+main,
+footer {
+  max-width: 1350px;
+  margin: 0 auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header,
+footer {
+  border: 1px solid #bbb;
+  padding: 1rem;
+  background-color: #284b63;
+  color: white;
+  text-align: center;
+}
+
+.lasmod {
+  color: aqua;
+}
+
+#byuilink {
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "New Tegomin", serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0.15rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+main {
+  max-width: 1350px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 0.8rem;
+}
+
+main section {
+  margin: 0.5rem;
+  border: 1px solid rgb(182, 183, 184);
+  padding: 0 1rem;
+  background-color: rgb(219, 227, 235);
+  border-radius: 15px;
+}
+
+main section:nth-child(2) {
+  display: none;
+  margin: 0.5rem;
+}
+
+.webimages {
+  box-shadow: #0d1b24;
+}
