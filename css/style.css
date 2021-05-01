@@ -1,5 +1,6 @@
 body {
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 header,
@@ -15,18 +16,15 @@ footer {
   border: 1px solid #bbb;
   padding: 1rem;
   background-color: #284B63;
-  border-radius: 10px;
   color: white;
 }
 
 header img {
-  float: right;
   width: 150px;
-  height: 200px;
+  height: auto;
 }
 
 header {
-  font-size: 1.5em;
   text-align: center;
 }
 
@@ -46,6 +44,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'New Tegomin', serif;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
+h1 {
+  font-size: 1.5rem;
+  margin: 0.15rem;
+}
+
+h2 {
+  font-size: 1rem;
 }
