@@ -73,5 +73,6 @@ main section:nth-child(2) {
 }
 
 .webimages {
-  box-shadow: #0d1b24;
+  box-shadow: 5px 8px #0d1b24;
+  max-width: 100%;
 }
