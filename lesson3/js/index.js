@@ -25,15 +25,8 @@ const d = new Date();
 const dayName = daynames[d.getDay()];
 const monthName = months[d.getMonth()];
 const year = d.getFullYear();
+document.querySelector('#getyear').textContent = year;
 //const fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("currentdate").textContent = fulldate;
 // ****************************
-try {
-  const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-  document.querySelector('#currentdate2').textContent = new Date().toLocaleDateString('en-US', options);
-} catch (e) {
-  alert('Error with code or your browser does not support Locale');
-}
-
-// problme with toLocaleDateString order ... 
