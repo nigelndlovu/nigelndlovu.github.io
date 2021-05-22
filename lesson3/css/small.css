@@ -109,3 +109,7 @@ body {
   footer {
     flex: 0 1 100%;
   }
+
+  header img {
+    display: block;
+  }

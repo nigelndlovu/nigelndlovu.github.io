@@ -36,7 +36,9 @@
     }
 
     main section img {
-      display: flex;
+      display: block;
+      width: 100%;
+      height: auto;
     }
   }
   
